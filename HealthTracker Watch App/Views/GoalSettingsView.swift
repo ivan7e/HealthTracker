@@ -101,7 +101,7 @@ struct GoalSettingsView: View {
                     Button {
                         viewModel.updateGoals(calories: caloriesGoal, water: waterGoal)
                     } label: {
-                        Text("Save Goal")
+                        Text("Save Goal.")
                             .font(.system(size: 18, weight: .medium))
                             .frame(maxWidth: .infinity)
                             .padding(.vertical, 10)
